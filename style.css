@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .top-level, .header .low-level {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.header .top-level .left-logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header .top-level .left-logo img {
+    max-width: 70px;
+    height: auto;
+    padding: 10px;
+}
+
+.header .right-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.header .right-links li {
+    list-style: none;
+}
+
+.header .right-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .low-level {
+    padding: 20px 5%; 
+    gap: 2vw;
+}
+
+.header .low-level .left-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+.header .low-level .left-text h1 {
+    font-size: 3vw; 
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header .low-level .left-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0 0;
+}
+
+.header .low-level a {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 4vw;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 1vw;
+    flex-shrink: 0;
+}
+
+.header .low-level .right-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .low-level img {
+    max-width: 100%;
+    height: auto; 
+    max-height: 300px;
+    padding: 0 2vw;
+    margin-bottom: 1.5vw;
+}
+
+.mid-content {
+    flex: 1;
+}
+
+.mid-content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.mid-content .info img {
+    width: 13vw;
+    height: 10vw;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-top: 2vw;
+    flex-shrink: 0;
+}
+
+.news .info {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+}
+
+.news .text {
+    color: #686869;
+    max-width: 14vw;
+    margin-top: 0.7vw;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #F9FAF8;
+}
