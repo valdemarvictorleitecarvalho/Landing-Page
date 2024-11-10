@@ -1,4 +1,4 @@
-# odin-landingpage
+# Landing-Page
 
 Welcome to my **Landing Page** repository! This project focuses on creating an engaging, responsive landing page to enhance web development skills in design, structure, and interactivity. It's a great starting point for learning how to create visually appealing and functional landing pages.
 
@@ -30,4 +30,4 @@ This repository uses various web development technologies, including:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/odin-landingpage.git
+   git clone https://github.com/yourusername/Landing-Page.git
